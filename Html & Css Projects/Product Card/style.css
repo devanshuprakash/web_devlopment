@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+.wrapper{
+    height:100vh;
+
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card{
+    display: flex;
+    position: relative;
+    height:40vh;
+    width:67vh;
+    background-color: beige;
+    overflow:hidden;
+    border-radius: 20px;
+
+}
+.card img{
+    height: 100%;
+    width: 50%;
+} 
+#k{
+    font-family:monospace;
+    font-size: large; 
+    position: relative;
+    left: 2vh;
+    top:1vh;
+    color: gray;
+}
+#kk{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    left: 2vh;
+}
+#kkk{
+    color: gray;
+    position: relative;
+    top:1vh;
+    left: 2vh;
+
+}
+span{
+    position: relative;
+    left: 2vh;
+    top:5vh;
+}
+#cost{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;color: darkgreen;
+}
+.last{
+    height: 5vh;
+    width: 80%;
+    background-color: darkgreen;
+    position: relative;
+    top:8vh;
+    left: 2vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+#icon{
+    height: 50%;
+    width:8%;
+    position: relative;
+    right: 1vh;
+
+}
